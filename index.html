@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="https://rawcdn.githack.com/kousik19/foto.js/d604b02c69b6f037875bc4a3050b85d776dc4659/foto.js"></script>
+    <!-- <script src="https://rawcdn.githack.com/kousik19/foto.js/045defe1a5ce06220e084e4e6f6fbaccb7621841/foto.min.js"></script> -->
+    <title>Image Editor</title>
+  </head>
+  <body>
+    <h1>Adobe ultra pro max</h1>
+    <main>
+    <div id="imgbox">
+      <div class="file-upload-section" onclick="selectImage()">
+        <input type="file" id="foto-file" />Select file
+      </div>
+      <div class="img-container"><img class="image" id="foto-image"></div>
+    </div>
+    <div class="buttons"><button onclick="makeGreyScale()"" class="btn" id="#1">Grayscale</button>
+      <button onclick="makeBlur()" class="btn" id="#2">Blur</button>
+      <button onclick="makeBright()" class="btn" id="#3">Brightness increase</button>
+      <button onclick="makeDark()" class="btn" id="#4">Brightness decrease</button>
+      <button onclick="makeEmboss()" class="btn" id="#5">Emboss</button>
+      <button onclick="makeSharp()" class="btn" id="#6">Sharp</button>
+      <button onclick="download()" class="btn" id="download">Download</button></div>
+    </main>
+    <script src="./script.js"></script>
+  </body>
+</html>

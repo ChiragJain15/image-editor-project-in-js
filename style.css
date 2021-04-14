@@ -1,0 +1,108 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-size: 1.6vh;
+}
+
+body {
+  min-height: 100vh;
+  background: #121212;
+  font-family: "Poppins", sans-serif;
+  
+}
+
+h1{
+  color: white;
+  width: 90%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  height: 12vh;
+  font-size: 4rem;
+  font-family: 'lobster';
+}
+
+main{
+  display: flex;
+  height: 88vh;
+}
+
+#imgbox {
+  width: 75%;
+  height: 80vh;
+  padding: 5rem;
+  margin: 5rem;
+  margin-top: 0rem;
+  border-radius: 1rem;
+  border: solid 0.2rem #6fffe9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  height: 100%;
+  width: auto;
+}
+
+.file-upload-section {
+  position: absolute;
+  top: 55rem;
+  left: 12rem;
+  color: white;
+  background-color: #121212;
+  cursor: pointer;
+  padding: 1rem;
+  border-radius: 1rem;
+  border: solid 0.2rem #6fffe9;
+  font-family: "lobster", cursive;
+  text-align: center;
+}
+
+.buttons {
+  width: 20rem;
+}
+
+.btn {
+  width: 12rem;
+  height: 5rem;
+  margin: 1rem;
+  padding: 1rem;
+  cursor: pointer;
+  border: #6fffe9 solid 0.1rem;
+  border-radius: 10%;
+  color: white;
+  background-color: transparent;
+  font-family: "Poppins";
+  transition: all 0.2s ease-in-out;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+}
+
+@media screen and (max-width: 1200px) {
+  * {
+    font-size: 1.4vh;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  * {
+    font-size: 1vh;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  * {
+    font-size: 0.7vh;
+  }
+}
